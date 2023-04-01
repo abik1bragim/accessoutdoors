@@ -1,0 +1,59 @@
+.container{
+    width: 100%;
+    height: 250vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-con{
+    width: 90%;
+    height: 100%;
+    /* border: 1px solid gold; */
+    display: flex;
+    flex-direction: column;
+}
+
+.why{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+}
+
+.why h1{
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.kerak{
+    width: 100%;
+    height: 110px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    position: relative;
+}
+
+.kerak-text{
+    width: 83%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.kerak-text > h3{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.kerak-text p {
+    margin-top: 25px;
+    line-height: 25px;
+    font-size: 15px;
+}
